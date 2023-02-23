@@ -49,4 +49,5 @@ console.log(findComment.text);
 const findIndexCommnet= comments.findIndex(comment => comment.id ===823423);
 console.log(findIndexCommnet);
 
+comments.splice(findIndexCommnet,1);
  
